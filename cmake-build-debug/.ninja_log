@@ -1,0 +1,19 @@
+# ninja log v5
+14	765	7168883169380682	CMakeFiles/usestock0.dir/chapter10/usestock0/source/usestock0.cpp.obj	32dfb572b99e6b7c
+5	776	7168883169500362	CMakeFiles/usestock0.dir/chapter10/usestock0/source/stock00.cpp.obj	a7eef0ba00665b59
+9	934	7168888793464806	CMakeFiles/ObserverPattern.dir/ObserverPattern/source/Observer1.cpp.obj	cbbf88bc604c20e8
+9	246	7168883893022868	usestock0.exe	d50130d924a7b3f3
+0	26	0	clean	12e284a35dd99ff1
+1	280	7168893831842630	build.ninja	baf310e6d7f293ec
+4	924	7168888980771626	CMakeFiles/ObserverPattern.dir/ObserverPattern/source/ConcreteSubject.cpp.obj	1a448b0f9f08bd4b
+14	1292	7168888797035569	CMakeFiles/ObserverPattern.dir/ObserverPattern/source/ObserverPatternMain.cpp.obj	17cc5854888d532d
+18	738	7168888791480090	CMakeFiles/ObserverPattern.dir/ObserverPattern/source/Observer2.cpp.obj	3b3a0a1aa816c900
+925	1176	7168888983234945	ObserverPattern.exe	7d5e62eedadc3e0
+554	2480	7168894083709033	CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/Observer2.cpp.obj	64aec8f5cce83415
+14	2516	7168894083709033	CMakeFiles/usestock0.dir/chapter10/usestock0/source/usestock0.cpp.obj	f7e7c0770346c807
+9	2517	7168894083749000	CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/Observer1.cpp.obj	3b094e281576983e
+533	2520	7168894083908492	CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/ConcreteSubject.cpp.obj	48bd76158b0a63ea
+3	2558	7168894083918471	CMakeFiles/usestock0.dir/chapter10/usestock0/source/stock00.cpp.obj	48dcb2b090697bba
+564	2566	7168894084357289	CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/ObserverPatternMain.cpp.obj	b5654df775d80801
+2558	3867	7168894097653222	usestock0.exe	d50130d924a7b3f3
+2567	3904	7168894098012260	ObserverPattern.exe	baba73c3d50d20ac
