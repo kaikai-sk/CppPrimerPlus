@@ -52,14 +52,14 @@ build cmake_object_order_depends_target_usestock0: phony || CMakeFiles/usestock0
 build CMakeFiles/usestock0.dir/chapter10/usestock0/source/stock00.cpp.obj: CXX_COMPILER__usestock0_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/source/stock00.cpp || cmake_object_order_depends_target_usestock0
   DEP_FILE = CMakeFiles\usestock0.dir\chapter10\usestock0\source\stock00.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
   OBJECT_DIR = CMakeFiles\usestock0.dir
   OBJECT_FILE_DIR = CMakeFiles\usestock0.dir\chapter10\usestock0\source
 
 build CMakeFiles/usestock0.dir/chapter10/usestock0/source/usestock0.cpp.obj: CXX_COMPILER__usestock0_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/source/usestock0.cpp || cmake_object_order_depends_target_usestock0
   DEP_FILE = CMakeFiles\usestock0.dir\chapter10\usestock0\source\usestock0.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
   OBJECT_DIR = CMakeFiles\usestock0.dir
   OBJECT_FILE_DIR = CMakeFiles\usestock0.dir\chapter10\usestock0\source
 
@@ -82,6 +82,47 @@ build usestock0.exe: CXX_EXECUTABLE_LINKER__usestock0_Debug CMakeFiles/usestock0
   TARGET_PDB = usestock0.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target StringBad
+
+
+#############################################
+# Order-only phony target for StringBad
+
+build cmake_object_order_depends_target_StringBad: phony || CMakeFiles/StringBad.dir
+
+build CMakeFiles/StringBad.dir/chapter12/StringBad/source/StringBad.cpp.obj: CXX_COMPILER__StringBad_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/source/StringBad.cpp || cmake_object_order_depends_target_StringBad
+  DEP_FILE = CMakeFiles\StringBad.dir\chapter12\StringBad\source\StringBad.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  OBJECT_DIR = CMakeFiles\StringBad.dir
+  OBJECT_FILE_DIR = CMakeFiles\StringBad.dir\chapter12\StringBad\source
+
+build CMakeFiles/StringBad.dir/chapter12/StringBad/source/vegnews.cpp.obj: CXX_COMPILER__StringBad_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/source/vegnews.cpp || cmake_object_order_depends_target_StringBad
+  DEP_FILE = CMakeFiles\StringBad.dir\chapter12\StringBad\source\vegnews.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  OBJECT_DIR = CMakeFiles\StringBad.dir
+  OBJECT_FILE_DIR = CMakeFiles\StringBad.dir\chapter12\StringBad\source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StringBad
+
+
+#############################################
+# Link the executable StringBad.exe
+
+build StringBad.exe: CXX_EXECUTABLE_LINKER__StringBad_Debug CMakeFiles/StringBad.dir/chapter12/StringBad/source/StringBad.cpp.obj CMakeFiles/StringBad.dir/chapter12/StringBad/source/vegnews.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\StringBad.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = StringBad.exe
+  TARGET_IMPLIB = libStringBad.dll.a
+  TARGET_PDB = StringBad.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ObserverPattern
 
 
@@ -93,28 +134,28 @@ build cmake_object_order_depends_target_ObserverPattern: phony || CMakeFiles/Obs
 build CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/ConcreteSubject.cpp.obj: CXX_COMPILER__ObserverPattern_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/source/ConcreteSubject.cpp || cmake_object_order_depends_target_ObserverPattern
   DEP_FILE = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source\ConcreteSubject.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
   OBJECT_DIR = CMakeFiles\ObserverPattern.dir
   OBJECT_FILE_DIR = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source
 
 build CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/Observer1.cpp.obj: CXX_COMPILER__ObserverPattern_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/source/Observer1.cpp || cmake_object_order_depends_target_ObserverPattern
   DEP_FILE = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source\Observer1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
   OBJECT_DIR = CMakeFiles\ObserverPattern.dir
   OBJECT_FILE_DIR = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source
 
 build CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/Observer2.cpp.obj: CXX_COMPILER__ObserverPattern_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/source/Observer2.cpp || cmake_object_order_depends_target_ObserverPattern
   DEP_FILE = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source\Observer2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
   OBJECT_DIR = CMakeFiles\ObserverPattern.dir
   OBJECT_FILE_DIR = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source
 
 build CMakeFiles/ObserverPattern.dir/DesignPattern/ObserverPattern/source/ObserverPatternMain.cpp.obj: CXX_COMPILER__ObserverPattern_Debug C$:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/source/ObserverPatternMain.cpp || cmake_object_order_depends_target_ObserverPattern
   DEP_FILE = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source\ObserverPatternMain.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
+  INCLUDES = -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter10/usestock0/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/chapter12/StringBad/include -IC:/Users/shand/CLionProjects/CppPrimerPlus/DesignPattern/ObserverPattern/include
   OBJECT_DIR = CMakeFiles\ObserverPattern.dir
   OBJECT_FILE_DIR = CMakeFiles\ObserverPattern.dir\DesignPattern\ObserverPattern\source
 
@@ -164,6 +205,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build ObserverPattern: phony ObserverPattern.exe
 
+build StringBad: phony StringBad.exe
+
 build usestock0: phony usestock0.exe
 
 # =============================================================================
@@ -174,7 +217,7 @@ build usestock0: phony usestock0.exe
 #############################################
 # Folder: C:/Users/shand/CLionProjects/CppPrimerPlus/cmake-build-debug
 
-build all: phony usestock0.exe ObserverPattern.exe
+build all: phony usestock0.exe StringBad.exe ObserverPattern.exe
 
 # =============================================================================
 # Built-in targets

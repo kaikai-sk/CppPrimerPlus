@@ -1,4 +1,5 @@
 C:/Users/shand/CLionProjects/CppPrimerPlus/cmake-build-debug/CMakeFiles/usestock0.dir
+C:/Users/shand/CLionProjects/CppPrimerPlus/cmake-build-debug/CMakeFiles/StringBad.dir
 C:/Users/shand/CLionProjects/CppPrimerPlus/cmake-build-debug/CMakeFiles/ObserverPattern.dir
 C:/Users/shand/CLionProjects/CppPrimerPlus/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/shand/CLionProjects/CppPrimerPlus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
